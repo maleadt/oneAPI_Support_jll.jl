@@ -10,7 +10,7 @@ For more details about JLL packages and how to use them, see `BinaryBuilder.jl` 
 
 The tarballs for `oneAPI_Support_jll.jl` have been built from these sources:
 
-* git repository: https://github.com/JuliaGPU/oneAPI.jl (revision: `fadcd8d4981260befc4a649e13c2f4408ed4610b`)
+* git repository: https://github.com/JuliaGPU/oneAPI.jl (revision: `5cce2dbf019eb78b1d208b475b8ec532aa6eaed1`)
 * compressed archive: https://conda.anaconda.org/intel/linux-64/dpcpp-cpp-rt-2024.0.0-intel_49819.tar.bz2 (SHA256 checksum: `22b4d8754399bab5790d282066697b8cc3c2f1cbcc1f4b2d340727a6d7aa2c35`)
 * compressed archive: https://conda.anaconda.org/intel/linux-64/dpcpp_impl_linux-64-2024.0.0-intel_49819.tar.bz2 (SHA256 checksum: `3790e698d3e7b65bc3ae09d9dd8a30325271e2ed4faa745d472ed4db01d0258b`)
 * compressed archive: https://conda.anaconda.org/intel/linux-64/dpcpp_linux-64-2024.0.0-intel_49819.tar.bz2 (SHA256 checksum: `9ab6468f7522e7b2a84e6f2b79664aea4ae4a928518c30688d1d1db1870cdc90`)
