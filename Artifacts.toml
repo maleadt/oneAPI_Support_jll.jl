@@ -1,9 +1,9 @@
 [[oneAPI_Support]]
 arch = "x86_64"
-git-tree-sha1 = "b40cec90d3793202c32d8579249252d1ced820ee"
+git-tree-sha1 = "b5c94438cbe90f256f82c5eb04f5be5928683beb"
 libc = "glibc"
 os = "linux"
 
     [[oneAPI_Support.download]]
-    sha256 = "0ea344ba77a3843c742719e51c796a6a26e30c05996838d9fde0abc86e80d8d7"
+    sha256 = "fb8d7051f976c9834bbaa552164ca68f997ca83eb206babd8b74502de0a11d04"
     url = "https://github.com/maleadt/oneAPI_Support_jll.jl/releases/download/oneAPI_Support-v0.4.0+0/oneAPI_Support.v0.4.0.x86_64-linux-gnu.tar.gz"
