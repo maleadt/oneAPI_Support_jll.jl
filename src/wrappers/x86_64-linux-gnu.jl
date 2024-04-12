@@ -14,4 +14,14 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
+    # at run time, MKL will dlopen("libOpenCL.so"). this isn't by SONAME,
+# so instead of returning the library we've loaded through OpenCL_jll
+# it will either fail or load a different copy of the library.
+# avoid that by setting LD_LIBRARY_PATH
+# TODO: file an issue with Intel
+ENV["LD_LIBRARY_PATH"] = isempty(ENV["LD_LIBRARY_PATH"])
+    dirname(OpenCL_jll.libopencl)
+else
+    ENV["LD_LIBRARY_PATH"] * ":" * dirname(OpenCL_jll.libopencl)
+end
 end  # __init__()
